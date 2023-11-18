@@ -1,25 +1,34 @@
 import './App.css';
 import styled from 'styled-components';
-
+import {SectionHeader} from "./components/SectionHeader";
+import React from "react";
+import {FlexContainer} from "./components/FlexContainer";
+import sprite from "./assets/svg/sprite.svg"
 
 function App() {
     return (
         <div className="App">
-            <Title>Welcome to IT-INCUBATOR1</Title>
-            Home
-            Skills
-            Works Works
-            Testimony
-            Contact
-            Hi There
-            I am Svetlana Dyablo
-            A Web Developer.
-            M y S k i l l s
-            html5
-            Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua Ut
-            enim
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Works Works</a></li>
+                <li><a href="#">Testimony</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Hi There</span>
+            <h2>I am Svetlana Dyablo</h2>
+            <h1>A Web Developer.</h1>
+            <SectionHeader>
+                My Skills
+            </SectionHeader>
+                <FlexContainer>
+                        <svg>
+                                <use xlinkHref={`${sprite}#code`}/>
+                        </svg>
+                        <h3>html5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+                </FlexContainer>
+
             css3
             Lorem ipsum dolor sit amet, consectetur
             adipisicing elit, sed do eiusmod tempor
@@ -156,8 +165,3 @@ function App() {
 
 export default App;
 
-const Title = styled.h1`
-    font-size: 1.5em;
-    text-align: center;
-    color: #e91e63;
-`;
