@@ -17,8 +17,8 @@ export const FlexContainer = (props:FlexContainerPropsTypes) => {
 
 const SteyledFlexContainer = styled.div<any>`
 	display: flex;
-  	flex-direction: ${props => props.flexDirection || "row"};
-  	justify-content: ${props => props.styles.flexDirection || "center"};
+  	flex-direction: ${props => props.styles.flexDirection || "row"};
+  	justify-content: ${props => props.styles.justifyContent || "center"};
   	align-items: ${props => props.styles.alignItems || "center"}
 `
 // const Header1 = styled.h1<{test:string}>`

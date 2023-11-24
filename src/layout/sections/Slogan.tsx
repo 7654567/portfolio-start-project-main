@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionHeader} from "../../components/SectionHeader";
 
-type SloganPropsTypes = {}
+// type SloganPropsTypes = {}
 export const Slogan = () => {
 	return (
 		<SteyledSlogan>
@@ -14,6 +14,6 @@ export const Slogan = () => {
 	);
 };
 
-const SteyledSlogan = styled.div`
-	
+const SteyledSlogan = styled.section`
+
 `

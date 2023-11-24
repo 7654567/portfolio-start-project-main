@@ -5,15 +5,30 @@ import {FlexContainer} from "../../components/FlexContainer";
 import sprite from "../../assets/svg/sprite.svg";
 
 const skills = [
-	{name:"css3", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"},
-	{name:"React", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"},
-	{name:"typescript", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"},
-	{name:"styled components", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"},
-	{name:"WEB DESIgN", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"},
+	{
+		name: "css3",
+		text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"
+	},
+	{
+		name: "React",
+		text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"
+	},
+	{
+		name: "typescript",
+		text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"
+	},
+	{
+		name: "styled components",
+		text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"
+	},
+	{
+		name: "WEB DESIgN",
+		text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"
+	},
 	// {name:"css3", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenim"}
 ]
 
-type SkillsPropsTypes = {}
+// type SkillsPropsTypes = {}
 export const Skills = () => {
 	return (
 		<SteyledSkills>
@@ -26,9 +41,10 @@ export const Skills = () => {
 					<use xlinkHref={`${sprite}#code`}/>
 				</svg>
 				<h3>html5</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua Ut enim</p>
 			</FlexContainer>
-			{skills.map((item)=> {
+			{skills.map((item) => {
 				return (
 					<div>
 						<h3>{item.name}</h3>
@@ -41,6 +57,6 @@ export const Skills = () => {
 	);
 };
 
-const SteyledSkills = styled.div`
-	
+const SteyledSkills = styled.section`
+
 `

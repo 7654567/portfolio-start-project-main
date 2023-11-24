@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionHeader} from "../../components/SectionHeader";
 
-type ContactPropsTypes = {}
+// type ContactPropsTypes = {}
 export const Contact = () => {
 	return (
 		<SteyledContact>
@@ -20,6 +20,6 @@ export const Contact = () => {
 	);
 };
 
-const SteyledContact = styled.div`
-	
+const SteyledContact = styled.section`
+
 `

@@ -13,6 +13,7 @@ import {Testimony} from "./layout/sections/Testimony";
 import {Contact} from "./layout/sections/Contact";
 import {Slogan} from "./layout/sections/Slogan";
 import {Footer} from "./layout/Footer";
+import {Main} from "./layout/sections/Main";
 
 
         function App() {
@@ -20,6 +21,7 @@ import {Footer} from "./layout/Footer";
                     <div className="App">
 
                         <Header></Header>
+                            <Main></Main>
                         <Skills></Skills>
                         <Works></Works>
                         <Testimony></Testimony>

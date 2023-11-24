@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {SectionHeader} from "../../components/SectionHeader";
 import sprite from "../../assets/svg/sprite.svg";
 
-type TestimonyPropsTypes = {}
+// type TestimonyPropsTypes = {}
 export const Testimony = () => {
 	return (
 		<SteyledTestimony>
@@ -21,6 +21,6 @@ export const Testimony = () => {
 	);
 };
 
-const SteyledTestimony = styled.div`
-	
+const SteyledTestimony = styled.section`
+
 `
