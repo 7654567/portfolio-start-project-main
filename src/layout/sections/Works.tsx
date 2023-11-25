@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionHeader} from "../../components/SectionHeader";
+import {SectionTitle} from "../../components/SectionTitle";
 import social from "../../assets/jpg/rectangle1.jpg";
 import timer from "../../assets/jpg/rectangle2.jpg";
 
@@ -23,9 +23,9 @@ const works = [
 export const Works = () => {
 	return (
 		<SteyledWorks>
-			<SectionHeader>
+			<SectionTitle>
 				My Works
-			</SectionHeader>
+			</SectionTitle>
 			<ul>
 				<li><a href="#">All</a></li>
 				<li><a href="#">landing page</a></li>

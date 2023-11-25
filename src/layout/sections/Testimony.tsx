@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionHeader} from "../../components/SectionHeader";
+import {SectionTitle} from "../../components/SectionTitle";
 import sprite from "../../assets/svg/sprite.svg";
 
 // type TestimonyPropsTypes = {}
 export const Testimony = () => {
 	return (
 		<SteyledTestimony>
-			<SectionHeader>
+			<SectionTitle>
 				Testimony
-			</SectionHeader>
+			</SectionTitle>
 			<svg>
 				<use xlinkHref={`${sprite}#quote`}/>
 			</svg>

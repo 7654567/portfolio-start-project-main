@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionHeader} from "../../components/SectionHeader";
+import {SectionTitle} from "../../components/SectionTitle";
 
 // type ContactPropsTypes = {}
 export const Contact = () => {
 	return (
 		<SteyledContact>
-			<SectionHeader>
+			<SectionTitle>
 				My Contact
-			</SectionHeader>
+			</SectionTitle>
 
 			<form action="#">
 				<input type="text" name="name" placeholder="name"/>

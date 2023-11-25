@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionHeader} from "../../components/SectionHeader";
+import {SectionTitle} from "../../components/SectionTitle";
 
 // type SloganPropsTypes = {}
 export const Slogan = () => {
 	return (
 		<SteyledSlogan>
-			<SectionHeader>
+			<SectionTitle>
 				I Am Available For Freelance
-			</SectionHeader>
+			</SectionTitle>
 			<a href="">Hire me</a>
 		</SteyledSlogan>
 	);

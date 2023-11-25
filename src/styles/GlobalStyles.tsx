@@ -33,9 +33,14 @@ export const GlobalStyle = createGlobalStyle`
     color: ${colors.font};
   }
 
-  section:nth-child(odd) {
-    background-color: ${colors.secondary};
+  section {
+    padding: 100px 0;
+
+    &:nth-child(odd) {
+      background-color: ${colors.secondary};
+    }
   }
+
 
   a {
     color: white;
