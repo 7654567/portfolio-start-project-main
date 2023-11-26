@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import sprite from "../assets/svg/sprite.svg";
 
-type FooterPropsTypes = {}
+// type FooterPropsTypes = {}
 export const Footer = () => {
 	return (
 		<SteyledFooter>
@@ -24,5 +24,10 @@ export const Footer = () => {
 };
 
 const SteyledFooter = styled.div`
-    
+  	padding: 40px 0;
+    p {
+	  text-align: center;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.50);
+	}
 `

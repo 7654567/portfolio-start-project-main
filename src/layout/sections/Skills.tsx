@@ -52,9 +52,9 @@ export const Skills = () => {
 
 							<SteyledSkills>
 								<IconWrap>
-
 									<Icon iconId={item.iconId}></Icon>
 								</IconWrap>
+
 								<h3>{item.name}</h3>
 								<p>{item.text}</p>
 							</SteyledSkills>
@@ -82,7 +82,7 @@ const SteyledSkills = styled.div`
   
 
 `
-const IconWrap = styled.div`
+export const IconWrap = styled.div`
   position: relative;
 	&::after {
 	  content:"";
@@ -94,6 +94,5 @@ const IconWrap = styled.div`
 	  top:50%;
 	  left: 50%;
 	  transform-origin: top left;
-	  
 	}
 `

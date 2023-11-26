@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../components/SectionTitle";
+import {Button} from "../../components/Button";
 
 // type SloganPropsTypes = {}
 export const Slogan = () => {
@@ -9,7 +10,7 @@ export const Slogan = () => {
 			<SectionTitle>
 				I Am Available For Freelance
 			</SectionTitle>
-			<a href="">Hire me</a>
+			<Button>Hire me</Button>
 		</SteyledSlogan>
 	);
 };

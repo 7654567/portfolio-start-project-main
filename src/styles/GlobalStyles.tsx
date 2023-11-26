@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+	cursor: pointer;
   }
 
   //body {
@@ -42,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 
-  a {
+  a, button {
     color: white;
   }
 `
