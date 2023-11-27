@@ -34,6 +34,9 @@ export const GlobalStyle = createGlobalStyle`
     color: ${colors.font};
   }
 
+  svg {
+	fill:${colors.acsent};
+  }
   section {
     padding: 100px 0;
 
